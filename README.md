@@ -28,6 +28,17 @@ An end-to-end document-processing workflow that turns PDF and image invoices int
 
 `n8n` `JavaScript` `Mistral OCR` `Groq` `Google Sheets API` `Gmail API`
 
+### Inside LUMSU | Private academic team project
+
+An Android application designed as a central hub for discovering and organizing campus events at LUMS.
+
+- Built separate, role-based experiences for students and society organizers.
+- Supported real-time capacity tracking, scheduling-conflict detection, and event feeds tailored by school and batch.
+- Added discovery filters, including events with incentives, alongside a post-event review experience.
+- Developed in a five-person team using story-pointed development cycles, isolated branches, and peer review.
+
+`Android` `Firebase` `Figma` `Git/GitHub` `Team software development`
+
 ## Tools I build with
 
 `Python` | `JavaScript` | `C#` | `SQL` | `ASP.NET` | `n8n` | `REST APIs` | `Firebase` | `Git/GitHub` | `Vercel`
