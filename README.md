@@ -63,6 +63,4 @@ An Android application designed as a central hub for discovering and organizing 
 
 ## Connect
 
-I am open to software engineering and applied-AI opportunities, as well as conversations about useful automation and data-driven products.
-
 [LinkedIn](https://www.linkedin.com/in/haseeb-saair/) | [Email](mailto:haseebsair0000@gmail.com)
