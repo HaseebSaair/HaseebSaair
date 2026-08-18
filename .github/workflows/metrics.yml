@@ -1,0 +1,38 @@
+name: Profile metrics
+
+on:
+  schedule:
+    - cron: "20 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate half-year isometric calendar
+        uses: lowlighter/metrics@latest
+        with:
+          user: HaseebSaair
+          filename: metrics.plugin.isocalendar.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+
+      - name: Generate starred topics
+        uses: lowlighter/metrics@latest
+        with:
+          user: HaseebSaair
+          filename: metrics.plugin.topics.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_topics: yes
+          plugin_topics_mode: labels
+          plugin_topics_sort: activity
+          plugin_topics_limit: 12
